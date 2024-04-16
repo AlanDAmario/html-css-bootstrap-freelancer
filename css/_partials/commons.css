@@ -1,0 +1,22 @@
+#header{
+    background-color: #2C3E50;
+}
+
+h1{
+    font-size: 50px;
+}
+#jumbotron, #about{
+    background-color: #1ABC9C;
+}
+
+#header li{
+    font-size: .625rem;
+}
+
+
+.line_stars{
+    border-width: 3px;
+    border-color:var(--star-color);
+    opacity: 1;
+    border-radius: 3px;
+}

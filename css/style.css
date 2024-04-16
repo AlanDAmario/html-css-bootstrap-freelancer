@@ -1,3 +1,6 @@
-ul li{
-    list-style-type: none;
-}
+/* ***PARTIALS*** */
+@import url('./_partials/commons.css');
+@import url('./_partials/variables.css');
+
+/* ****COMPONENT***** */
+@import url('./_partials/_partials_component/components.css');

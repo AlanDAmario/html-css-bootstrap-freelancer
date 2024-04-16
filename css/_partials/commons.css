@@ -1,22 +1,41 @@
-#header{
+#header, #more-info{
     background-color: #2C3E50;
 }
 
-h1{
-    font-size: 50px;
-}
 #jumbotron, #about{
     background-color: #1ABC9C;
 }
-
+#copyright{
+    background-color: #3A546D;
+}
+h1{
+    font-size: 50px;
+}
 #header li{
     font-size: .625rem;
 }
-
 
 .line_stars{
     border-width: 3px;
     border-color:var(--star-color);
     opacity: 1;
     border-radius: 3px;
+}
+
+/* **** ABOUT*** */
+.about_btn{
+    background: transparent;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+/* ****CONTACT**** */
+input::placeholder{
+    font-size: 30px;
+}
+textarea::placeholder{
+    font-size: 30px;
+}
+.bg_btn_contact{
+    background-color: #1ABC9C;
+    border: none;
+    color: white;
 }

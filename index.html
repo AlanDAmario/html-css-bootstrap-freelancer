@@ -108,7 +108,16 @@
             <div class="container text-light mt-5">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="h2 text-uppercase text-center mt-5 mb-3 m-2">about</h2>
+                        <h2 class="h2  text-uppercase text-center mt-5 mb-3 m-2">about</h2>
+                    </div>
+                    <div class="m-auto d-flex mb-3">
+                        <div class="w-100 d-flex justify-content-end align-items-start me-lg-1 my-1">
+                            <hr class="w-25 line_stars" >
+                        </div>
+                        <i class="fas fa-star mt-2 fs-4"></i>
+                        <div class="w-100 ms-lg-1 my-1">
+                            <hr class="w-25 line_stars">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <p>
@@ -121,39 +130,72 @@
                         </p>
                     </div>
                     <div class="col-12 text-center mt-5 mb-5">
-                        <input type="button" class="border-0" value="Download">
+                        <button type="button" class="btn btn-outline-light"><i class="fas fa-download pe-1"></i> Download</button>
                     </div>
                 </div>
             </div>
         </section>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="h2 text-uppercase text-center mt-5 mb-3 m-2">contact me</h2>
-                </div>
-                <ul class="text mb-5">
-                    <li>Name</li>
-                    <li>Email Access</li>
-                    <li>Phone Number</li>
-                    <li>Message</li>
-                </ul>
-                <div class="col-12 mt-5 mb-5">
-                    <div class="about_button">
-                        <input type="button" class="border-0" value="Send">
+            <section id="contact">
+                <div class="row col-12">
+                    <div class="col">
+                        <h2 class="h2 text-uppercase text-center mt-5 mb-3 m-2">contact me</h2>
+                    </div>
+                    <div class="m-auto d-flex mb-3"  style="--star-color:black;">
+                        <div class="w-100 d-flex justify-content-end align-items-start me-lg-1 my-1">
+                            <hr class="w-25 line_stars" >
+                        </div>
+                        <i class="fas fa-star mt-2 fs-4"></i>
+                        <div class="w-100 ms-lg-1 my-1">
+                            <hr class="w-25 line_stars">
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <input class="form-control form-control-lg my-4 border-0 border-bottom  border-black rounded-0 mt-5" type="text" placeholder="Name" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg my-4 border-0 border-bottom  border-black rounded-0 mt-5" type="email" placeholder="Email Address" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg my-4 border-0 border-bottom  border-black rounded-0 mt-5" type="number" placeholder="Phone Number" aria-label=".form-control-lg example">
+                        <textarea class="form-control mt-5 border-0 border-bottom border-black rounded-0" id="exampleFormControlTextarea1" placeholder="Message" rows="10"></textarea>
+                        <button type="button" class="btn btn-outline-dark mt-5 bg_btn_contact rounded-0">Send</button>
                     </div>
                 </div>
             </div>
-        </div>
+            </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="row text-light">
-                <div class="col-12 col-md-4">Location</div>
-                <div class="col-12 col-md-4">Around the web</div>
-                <div class="col-12 col-md-4">About freelancer</div>
+        <section id="more-info">
+            <div class="container text-white">
+                <div class="row row-cols-1 row-cols-lg-3 text-center">
+                    <div class="col mt-5 mb-3">
+                        <span class="text-uppercase">location</span>
+                        <p>2215 Jhon Daniel Drive Clark</p>
+                    </div>
+                    <div class="col mt-5 mb-3">
+                        <span class="text-uppercase">Around the web</span>
+                        <div class="social_icon">
+                            <i class="fab fa-facebook pe-2"></i>
+                            <i class="fab fa-google-plus pe-2"></i>
+                            <i class="fab fa-twitter-square pe-2"></i>
+                            <i class="fab fa-instagram pe-2"></i>
+                        </div>
+                    </div>
+                    <div class="col mt-5 mb-3">
+                        <span class="text-uppercase">About freelancer</span>
+                        <p>Freelance is a free to use, open source Bootstrap them created by <span class="text-success">Start Bootstrap</span>.</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <section id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <p>Copyright &copy; your website</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
